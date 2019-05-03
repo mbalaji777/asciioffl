@@ -1,5 +1,7 @@
-# ASCII Website v3
+# ASCII Website v4
 
-This is the third version of the website
-The previous two versions has been named as asciiWeb and ascii
-The front end is completely done and backend for sending emails must be done ASAP
+This is the fourth version of the website
+The previous three versions has been named as asciiWeb, ascii and asciifinal
+The front end is completely done 
+Animations has been added
+and backend for sending emails must be done ASAP
