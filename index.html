@@ -1,0 +1,220 @@
+<!-- A portal for the club ASCII 
+
+Created and developed by Balaji Bharatwaj M 
+
+Date started : 21st April, 2019
+Date ended : On Going
+
+Language used : HTML
+Styling used : CSS, Bootstrap
+Icons used: Font Awesome Icons
+Fonts taken from : Google Fonts
+Animations used : Animate on scroll(AOS) and animate.css
+-->
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Required meta tags for mobile first Response -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ASCII</title>
+	<!-- Bootstrap CDN -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<!-- FontAwesome Icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+	<!-- adding the external CSS files -->
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link rel="stylesheet" type="text/css" href="css/animate.css">
+	<!-- adding the google fonts style sheet -->
+	<link href="https://fonts.googleapis.com/css?family=Rock+Salt|Laila" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet">
+	<!-- animate on scroll CDN -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+</head>
+<body>
+	<!-- <div class="container"> -->
+	<div class="heroImage">
+		<div class="container">
+			<div class="heroText">
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<p class="header animated fadeInUp">ASCII</p>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+						<p class="subHeader animated fadeInUp delay-1s"><b>A</b>ssosiation for <b>S</b>tudents of <b>C</b>omputer science for <b>I</b>nformation <b>I</b>nterchange</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<nav class="navbar navbar-default animated fadeInUp delay-1s" id="mainnav">
+	<div class="container-fluid fontChange">
+	<!-- Brand and toggle get grouped for better mobile display -->
+	<div class="navbar-header">
+	  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	    <span class="sr-only">Toggle navigation</span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	    <span class="icon-bar"></span>
+	  </button>
+	</div>
+
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	  <ul class="nav navbar-nav navbar-right">
+	  	<li><a class="liElements" href="index.html"><i class="fas fa-home"></i><b> Home</b></a></li>
+	    <li><a class="liElements" href="officebearers.html"><i class="fas fa-people-carry"></i> Office Bearers</a></li>
+	    <li><a class="liElements" href="aboutascii.html"><i class="fab fa-autoprefixer"></i> About ASCII</a></li>
+	    <li><a class="liElements" href="#events"><i class="fas fa-calendar-week"></i> Events</a></li>
+
+	    <li><a class="liElements" href="queryForm/index.html"><i class="fas fa-phone"></i> Get in touch</a></li>
+	  </ul>
+	</div><!-- /.navbar-collapse -->
+	</div><!-- /.container-fluid -->
+	</nav>
+	<br><br>
+	<!-- </div> -->
+	<!-- About ASCII div -->
+	<div class="aboutASCII">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<img src="css/groupphoto.jpeg" class="img-thumbnail" data-aos="zoom-out-up">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<h1 class="aboutHeader" data-aos="zoom-out-up"><b>About ASCII</b></h1>
+					<p class="aboutSubHeader" data-aos="zoom-out-up">A club exclusive to the Department of CSE, aimed to showcase the talents present in the hearts of budding engineers. We conduct events like coding competition, workshops and much more.</p>
+					<div class="wrapper">
+						<a href="aboutascii.html"><button class="button" data-aos="zoom-out-up"><span>Read More </span></button></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- about ASCII div end -->
+	<!-- events div starts here -->
+	<div class="container">
+		<div class="events" id="events" data-aos="zoom-out-up">
+			<h1 class="eventsHeader">Events</h1>
+			<div id="UpcomingEvents" class="tabcontent">
+			  <h1 class="eventsTitle">Upcoming Events</h1>
+			  <div class="subevents">
+			  	<!-- these are all sample values -->
+			  	<ol>
+				  	<li>Codeground | Time : 4:30 - 6:30 PM | Date : 23rd April 2019 | Venue : AB2</li>
+				  	<li>TechWiz | Time : 4:00 - 5:00 PM | Date : 30th April 2019 | Venue : AB1</li>
+				  	<li>App Inventor | Time : 4:30 - 6:30 PM | Date : 4th May 2019 | Venue : AB3</li>
+				</ol>
+			  </div>
+			</div>
+			<div id="EventsFinished" class="tabcontent">
+			  <h1 class="eventsTitle">Events Finished Till now</h1>
+			  <div class="subevents">
+			  	<ol>
+				  	<li>Codeground | Time : 4:30 - 6:30 PM | Date : 23rd April 2019 | Venue : AB2</li>
+				  	<li>TechWiz | Time : 4:00 - 5:00 PM | Date : 30th April 2019 | Venue : AB1</li>
+				  	<li>App Inventor | Time : 4:30 - 6:30 PM | Date : 4th May 2019 | Venue : AB3</li>
+				</ol>
+			  </div>
+			</div>
+			<button class="tablink" onclick="openCity('UpcomingEvents', this, '#7fffeb')" id="defaultOpen">Upcoming Events</button>
+			<button class="tablink" onclick="openCity('EventsFinished', this, '#efde6e')">Events Finished</button>
+		</div>
+	</div>
+	<!-- events div stops here -->
+	<!-- script for the events tab starts here -->
+	<script>
+		function openCity(cityName,elmnt,color) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablink");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].style.backgroundColor = "";
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  elmnt.style.backgroundColor = color;
+
+		}
+		// Get the element with id="defaultOpen" and click on it
+		document.getElementById("defaultOpen").click();
+	</script>
+	<!-- script for the events tab ends her -->
+	<!-- code for contact us starts here -->
+	<div class="container">
+		<div class="contactUs" id="contactus" data-aos="zoom-out-up">
+			<br><br>
+			<h1 class="contactUsHeader" data-aos="zoom-out-up">Follow Us on Social media !</h1>
+			<div class="row">
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="media">
+						<p data-aos="zoom-out-up"> <i class="fab fa-instagram"></i> Follow us on Instagram<br> @ascii_amrita</p>
+						<a href="https://www.instagram.com/ascii_amrita/"><button class="btn btn-success btn-md" data-aos="zoom-out-up"> <i class="fab fa-instagram"></i> Follow Us</button></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="media">
+						<p data-aos="zoom-out-up"><i class="fab fa-facebook-square"></i> Follow us on Facebook<br> @ascii_amrita</p>
+						<a href=""><button class="btn btn-success btn-md" data-aos="zoom-out-up"> <i class="fab fa-facebook-square"></i> Follow Us</button></a>
+					</div>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+					<div class="media">
+						<p data-aos="zoom-out-up"><i class="fas fa-envelope-open-text"></i> Email Us at <br>ascii.ase.cse@gmail.com</p>
+						<a href=""><button class="btn btn-success btn-md" data-aos="zoom-out-up"> <i class="fas fa-envelope-open-text"></i> Follow Us</button></a>
+					</div>
+				</div>
+			</div>	
+			<br><br>
+			<div class="row">
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<img src="images/logo1.png" class="amritaLogo img-responsive" data-aos="zoom-out-up">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+					<h2 class="copyrights" data-aos="zoom-out-up">ASCII is a registered club at &copy; Amrita Vishwa Vidyapeetham <br><br><b>Website created and developed by Balaji Bharatwaj M</b></h2>
+				</div>
+				<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+					<img src="images/amma.png" class="ammaPhoto img-responsive" data-aos="zoom-out-up">
+				</div>
+			</div>
+			<br><br><br><br><br>
+		</div>
+	</div>
+
+
+	<!-- code for contact us ends here -->	
+	<!-- jQuery minified -->
+	<script
+	  src="https://code.jquery.com/jquery-3.4.0.min.js"
+	  integrity="sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg="
+	  crossorigin="anonymous">
+  	</script>
+	<!-- Bootstrap minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	<!-- animate on scroll JS CDN -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<!-- script to make the navbar fixed on top even after scrolling -->
+	<script type="text/javascript">
+		$(document).ready(function() {
+		  var navpos = $('#mainnav').offset();
+		  console.log(navpos.top);
+		    $(window).bind('scroll', function() {
+		      if ($(window).scrollTop() > navpos.top) {
+		       $('#mainnav').addClass('navbar-fixed-top');
+		       }
+		       else {
+		         $('#mainnav').removeClass('navbar-fixed-top');
+		       }
+		    });
+		});
+	</script>
+</body>
+</html>
+<script>
+  AOS.init(1000);
+</script>
